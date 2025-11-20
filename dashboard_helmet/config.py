@@ -1,0 +1,11 @@
+CSV_FILE = "demo_data.csv"
+MAX_POINTS = 30
+API_KEY = "1d7f134a5c8ece4a227d6f300221907c"
+CITY = "New Delhi"
+DEFAULT_BAUD_RATE = 115200  # Must match your ESP32 Serial.begin()
+DEFAULT_PORT_FALLBACK = "COM3"
+
+#The user can change these in the Settings Page later.
+DEFAULT_CO_THRESHOLD = 900
+DEFAULT_METHANE_THRESHOLD = 1500
+DEFAULT_LPG_THRESHOLD = 1200
